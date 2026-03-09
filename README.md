@@ -7,8 +7,8 @@
 
 ## Local Run (without Docker)
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv .venv
+source .venv/Scripts/activate
 pip install -r requirements.txt
 python app.py
 curl http://localhost:8080/
